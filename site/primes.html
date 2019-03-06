@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="js/primes.js"></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
+	<title>Hello</title>
+	<link rel="stylesheet" href="style.css">	
+</head>
+<body>
+<div class="header">
+	<h1>Matthew R. Just</h1>
+	<h2>email: <a href="mailto:justmatt@uga.edu" title="email">justmatt@uga.edu</a></h2>
+	<h2>office: <a href="office.html" title="office">Boyd 427D</a></h2>
+</div>
+
+<ul class="sidenav">
+  <li><a class="active" href="index.html" title="home">Home</a></li>
+  <li><a href="teaching.html" title="teaching">Teaching</a></li>
+  <li><a href="research.html" title="research">Research</a></li>
+</ul>
+
+<div class="content">
+  <h3 style="text-align:center" id="title">Primality Tester</h3>
+  <p>
+  	For a positive integer \(n\) define a function $$ \tau(n) = \sum_{d | n} 1 $$ which gives the number of positive divisors of \(n \). A positive integer \(p\) is called <b>prime</b> if and only if \(\tau(p) =2\). A number \(n\) is <b>composite</b> if it can be factored as \(n=xy\) where \(x\) and \(y\) are not equal to one. A number that is composite is not prime.
+  </p>
+  <p>
+    Enter a positive integer to determine whether or not it is prime!
+  </p>
+  <p style="text-align:center">
+  	<input id="number" type="text">
+  	<button id="button" onclick="ptest()">
+  		Test!
+  	</button>
+  </p>
+  <p style="text-align:center" id="response"></p>
+</div>
+
+<div class="footer">
+	asd
+</div>
+</body>
+</html>
