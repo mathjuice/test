@@ -1,8 +1,14 @@
 body {font-family: "Courier New", Courier, monospace;}
 
+
+:root {
+	--primary1: #2196F3;
+	--secondary1: #f1f1f1;
+	--secondary2: #f1f1f1; 
+}
 		/* Style the header */
 			.header {
-			  background-color: #f1f1f1;
+			  background-color: var(--secondary1);
 			  padding: 30px;
 			  text-align: center;
 			  font-size: 35px;
@@ -13,7 +19,8 @@ body {font-family: "Courier New", Courier, monospace;}
 		  margin: 0;
 		  padding: 0;
 		  width: 25%;
-		  background-color: #f1f1f1;
+		  z-index:1;
+		  background-color: var(--secondary1);
 		  position: -webkit-sticky; /* Safari */
   			position: sticky;
   			top: 0;
@@ -29,12 +36,13 @@ body {font-family: "Courier New", Courier, monospace;}
 		}
 		 
 		ul.sidenav li a.active {
-		  background-color: #4CAF50;
+		  background-color: var(--primary1);
 		  color: white;
 		}
 
 		ul.sidenav li a:hover:not(.active) {
-		  background-color: #555;
+		  background-color: var(--primary1);
+		  opacity: .5;
 		  color: white;
 		}
 
@@ -46,7 +54,7 @@ body {font-family: "Courier New", Courier, monospace;}
 
 		/* Style the footer */
 			.footer {
-			  background-color: #f1f1f1;
+			  background-color: var(--secondary1);
 			  padding: 10px;
 			  text-align: center;
 			}
@@ -56,7 +64,7 @@ body {font-family: "Courier New", Courier, monospace;}
 			  height: auto;
 			}
 
-		@media screen and (max-width: 10000px) {
+		@media screen and (max-width: 100000px) {
 		  ul.sidenav {
 		    width: 100%;
 		    height: auto;
@@ -92,3 +100,65 @@ body {font-family: "Courier New", Courier, monospace;}
 		font-size: 3vmin;
 		font-weight: normal;
 		}
+
+		.buttonsh {
+		  background-color: var(--primary1);
+		  border: none;
+		  color: white;
+		  padding: 16px 32px;
+		  text-align: center;
+		  font-size: 16px;
+		  margin: 4px 2px;
+		  opacity: 1;
+		  transition: 0.1s;
+		  display: inline-block;
+		  text-decoration: none;
+		  cursor: pointer;
+		}
+
+		.buttonsh:hover {opacity: 1}
+
+		.buttonsh:active {
+		  transform: translateY(4px);
+		}
+
+		.buttonsh:focus {
+		  outline: none;
+		}
+
+		.buttonrs {
+		  background-color: var(--secondary1);
+		  border: none;
+		  color: black;
+		  padding: 16px 32px;
+		  text-align: center;
+		  font-size: 16px;
+		  margin: 4px 2px;
+		  opacity: 1;
+		  transition: 0.1s;
+		  display: inline-block;
+		  text-decoration: none;
+		  cursor: pointer;
+		}
+
+		.buttonrs:hover {opacity: 1}
+
+		.buttonrs:active {
+		  transform: translateY(4px);
+		}
+
+		.buttonrs:focus {
+		  outline: none;
+		}
+
+		a {
+			color: var(--primary1);
+		}
+
+		a:active {
+		  color: var(--primary1);
+		  font-weight: bold;
+
+		}
+
+
