@@ -161,4 +161,35 @@ body {font-family: "Courier New", Courier, monospace;}
 
 		}
 
+		.rotateimg90 {
+		  -webkit-transform:rotate(90deg);
+		  -moz-transform: rotate(90deg);
+		  -ms-transform: rotate(90deg);
+		  -o-transform: rotate(90deg);
+		  transform: rotate(90deg);
+		}
+
+		div.left{
+			text-align: justify;
+			width: 50%; 
+			float: left;
+		}
+
+		div.right{
+			width: 50%; 
+			float: right;
+		}
+
+		@media screen and (max-width: 400px) {
+			div.left{
+				width: 100%;
+				float: none;
+			}
+			div.right{
+				padding: 50px;
+				width: 100%;
+				float: none;
+			}
+		}
+
 
