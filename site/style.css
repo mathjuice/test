@@ -104,7 +104,8 @@ body {font-family: "Courier New", Courier, monospace;}
 		  background-color: var(--primary1);
 		  border: none;
 		  color: white;
-		  padding: 10px 20px;
+		  width: 100px;
+		  height: 30px;
 		  text-align: center;
 		  font-size: 12px;
 		  font-family: "Courier New", Courier, monospace;";
@@ -119,7 +120,7 @@ body {font-family: "Courier New", Courier, monospace;}
 		.buttonsh:hover {opacity: 1}
 
 		.buttonsh:active {
-		  transform: translateY(4px);
+		  
 		}
 
 		.buttonsh:focus {
