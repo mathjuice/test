@@ -1,4 +1,11 @@
-body {font-family: "Courier New", Courier, monospace;}
+body {
+	font-family: "Courier New", Courier, monospace;
+	width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
 
 
 :root {
@@ -14,6 +21,8 @@ body {font-family: "Courier New", Courier, monospace;}
 			  text-align: center;
 			  font-size: 35px;
 			}
+
+
 
 		ul.sidenav {
 		  list-style-type: none;
