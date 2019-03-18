@@ -9,16 +9,17 @@ body {
 
 
 :root {
-	--primary1: #2196F3;
-	--primary2: #D2691E;
-	--secondary1: #f1f1f1;
-	--secondary2: #f1f1f1; 
+	--primary1: #869DAB;
+	--primary2: #847072;
+	--secondary1: #DCC1B0;
+	--secondary2: #3D313F; 
 }
 		/* Style the header */
 			.header {
-			  background-color: var(--secondary1);
+			  background-color: var(white);
 			  padding: 30px;
 			  text-align: center;
+			  color: var(--secondary2);
 			  font-size: 35px;
 			}
 
@@ -57,8 +58,11 @@ body {
 		}
 
 		div.content {
-		  margin: 0%;
-		  padding: 1px 16px;
+
+		  margin-left: 25%;
+		  margin-right: 25%;
+		  margin-bottom: 25%;
+		  width: 50%;
 		}
 
 		/* Style the footer */
@@ -96,6 +100,11 @@ body {
 		    position: -webkit-sticky; /* Safari */
   			position: sticky;
   			top: 0;
+		  }
+		  div.content {
+		  	margin-left:5%;
+		  	margin-right:5%;
+		  	width: 90%;
 		  }
 		}
 
@@ -214,6 +223,31 @@ body {
 		  opacity: 0;
 		  width: 0;
 		  height: 0;
+		}
+
+		svg{
+		  width:30%;
+		  max-width: 200px;
+		  margin:0 auto;
+		}
+		#hex{
+		  stroke-width:2;
+		  stroke: var(--primary1);
+		  fill-opacity:0.6;
+		  transition:fill-opacity .8s;
+		}
+		#hex:hover{
+		  fill-opacity:1;
+		}
+		#text{
+		  stroke-width:0.5;
+		  stroke: var(--primary1);
+		  fill-opacity:0.4;
+		  fill:teal;
+		  transition:fill-opacity .8s;
+		}
+		#hex:hover + #text{
+		  fill-opacity:1;
 		}
 
 		.slider {
