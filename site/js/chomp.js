@@ -10,7 +10,7 @@ var turn = "0";
 function newgame() {
     "use strict"
     state[0] = document.getElementById("type").value;
-    state[1] = document.getElementById("assist").value;
+    /*state[1] = document.getElementById("assist").value;*/
     game = "on";
     var i
     for (i = 1; i <= 28; i += 1) {
@@ -36,9 +36,11 @@ function newgame() {
 
 }
 
-function ch(x) {
-    "use strict"
-    if (document.getElementById(""+x).value === "nc") {
+function ch(x,stall = 0) {
+    if (stall == 1) {
+        turn = "2";
+    }
+    if (document.getElementById(""+x).value === "nc" && turn !== '0') {
         var i;
         for (i = 1; i <= 28; i += 1) {
             if (i < (x+7) && (((x-1) % 7) <= (i-1) % 7)) {
@@ -107,7 +109,8 @@ function ch(x) {
                     }
                 }
                 var p = M[Math.floor(Math.random()*(M.length ))];
-                setTimeout(function() {ch(p);}, 2000);
+                turn = "0";
+                setTimeout(function() {ch(p,1);}, 2000);
                 return
             }
             if (turn == "2") {
@@ -122,7 +125,7 @@ function ch(x) {
 function typ() {
     "use strict"
     state[0] = document.getElementById("type").value;
-    state[1] = document.getElementById("assist").value;
+    /*state[1] = document.getElementById("assist").value;*/
     if (game === "on") {
         return
     }
@@ -139,10 +142,10 @@ function typ() {
         document.getElementById("type").innerHTML = "2 Player";
     }
     state[0] = document.getElementById("type").value;
-    state[1] = document.getElementById("assist").value;    
+    /*state[1] = document.getElementById("assist").value; */   
 }
 
-function ass() {
+/*function ass() {
     "use strict"
     state[0] = document.getElementById("type").value;
     state[1] = document.getElementById("assist").value;
@@ -156,4 +159,4 @@ function ass() {
     }
     state[0] = document.getElementById("type").value;
     state[1] = document.getElementById("assist").value;
-}
+}*/

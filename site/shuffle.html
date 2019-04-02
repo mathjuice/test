@@ -8,32 +8,30 @@
 	<link rel="stylesheet" href="style.css">
 	<style>
 		.grid-container {
-		  display: grid;
+		  display: inline-grid;
 		  grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto;
-		  grid-gap: .5vw;
-		  background-color: #2196F3;
-		  padding: 1vw;
-		  width: 89.25vw;
+		  grid-gap: 2px;
+		  background-color: var(--primary1);
+		  padding: 4px;
+		  width: 357px;
 		}
 
 		.grid-container > div {
-		  background-color: rgba(255, 255, 255, 0.8);
-		  border: .5vw solid black;
+		  background-color: var(--secondary1);
+		  border: 2px var(--secondary2);
 		  text-align: center;
-		  font-size: 3vw;
-		  width: 5.25vw;
+      color: var(--secondary2);
+		  font-size: 12px;
+		  width: 21px;
 		}
 	</style>	
 </head>
 <body>
-<div class="header">
-	<h1>Matthew R. Just</h1>
-	<h2>email: <a href="mailto:justmatt@uga.edu" title="email">justmatt@uga.edu</a></h2>
-	<h2>office: <a href="office.html" title="office">Boyd 427D</a></h2>
-</div>
+<script language="javascript" type="text/javascript" 
+  src="page/header.txt"></script>
 
 <ul class="sidenav">
-  <li><a class="active" href="index.html" title="home">Home</a></li>
+  <li><a href="index.html" title="home">Home</a></li>
   <li><a href="teaching.html" title="teaching">Teaching</a></li>
   <li><a href="research.html" title="research">Research</a></li>
 </ul>
@@ -57,7 +55,8 @@
   	Reset
   </button>
   </p>
-  <div style="text-align:center" class="grid-container">
+  <div style="text-align:center">
+  <div class="grid-container">
   	<div id="1">\(2\clubsuit\)</div>
   <div id="2">\(3\clubsuit\)</div>
   <div id="3">\(4\clubsuit\)</div>  
@@ -112,9 +111,7 @@
   <div id="52">\(A\spadesuit\)</div>
   </div>
 </div>
-
-<div class="footer">
-	asd
 </div>
+
 </body>
 </html>
