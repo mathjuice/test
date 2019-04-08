@@ -222,11 +222,11 @@ function ass() {
     state[1] = document.getElementById("assist").value;
     if (state[1] === "off") {
         document.getElementById("assist").value = "on";
-        document.getElementById("assist").innerHTML = "Assist on";
+        document.getElementById("assist").innerHTML = "GS Values";
     }
     if (state[1] === "on") {
         document.getElementById("assist").value = "off";
-        document.getElementById("assist").innerHTML = "Assist off";
+        document.getElementById("assist").innerHTML = "GS Values";
     }
     state[0] = document.getElementById("type").value;
     state[1] = document.getElementById("assist").value;
