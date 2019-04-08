@@ -17,6 +17,7 @@
 		}
 
 		.sq {
+      color: var(--secondary2);
 		  background-color: var(--primary1);
 		  border: 1px solid black;
 		  text-align: center;
@@ -57,18 +58,18 @@
 
 <div class="content">
   <h3 style="text-align:center" id="title">Chomp</h3>
-<div style="text-align: center">
+<div style="text-align: center; overflow: none; margin-bottom: 10px;">
   <button onclick="newgame()" class="buttonsh">
   	New Game!
   </button>
   <button onclick="typ()" id="type" class="buttonsh" value="2player">
     2 Player
   </button>
-  <!--<button onclick="ass()" id="assist" class="buttonsh" value="off">
-    Assist off
-  </button> -->
+  <button onclick="ass()" id="assist" class="buttonsh" value="off">
+    GS Values
+  </button>
 </div>
-  </p>
+
 <div style="text-align:center">
   <div class="grid-container">
   <div class="sq" id="1" onclick="ch(1)" value="nc"></div>
