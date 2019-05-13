@@ -1,0 +1,1 @@
+document.write("<div class='header'><h1>Matthew R. Just</h1><h2>email: <a href='mailto:justmatt@uga.edu' title='email'>justmatt@uga.edu</a></h2><h2>office: <a href='office.html' title='office'>Boyd 427D</a></h2></div>" )
