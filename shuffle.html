@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="js/shuffle.js"></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
+	<title>Hello</title>
+	<link rel="stylesheet" href="style.css">
+	<style>
+		.grid-container {
+		  display: inline-grid;
+		  grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto;
+		  grid-gap: 2px;
+		  background-color: var(--primary1);
+		  padding: 4px;
+		  width: 357px;
+		}
+
+		.grid-container > div {
+		  background-color: var(--secondary1);
+		  border: 2px var(--secondary2);
+		  text-align: center;
+      color: var(--secondary2);
+		  font-size: 12px;
+		  width: 21px;
+		}
+	</style>	
+</head>
+<body>
+<script language="javascript" type="text/javascript" 
+  src="page/header.txt"></script>
+
+<ul class="sidenav">
+  <li><a href="index.html" title="home">Home</a></li>
+  <li><a href="teaching.html" title="teaching">Teaching</a></li>
+  <li><a href="research.html" title="research">Research</a></li>
+</ul>
+
+<div class="content">
+  <h3 style="text-align:center" id="title">Card Shuffler</h3>
+
+  <p>
+    Select the type of shuffle:
+  </p>
+  <p style="text-align:center">
+  <select id="shuffle">
+    <option value="ins">in shuffle</option>
+    <option value="outs">out shuffle</option>
+  </select>
+  <br><br>
+  <button onclick="shuffle()" class="buttonsh">
+  	Shuffle!
+  </button>
+  <button onclick="reset()" class="buttonrs">
+  	Reset
+  </button>
+  </p>
+  <div style="text-align:center">
+  <div class="grid-container">
+  	<div id="1">\(2\clubsuit\)</div>
+  <div id="2">\(3\clubsuit\)</div>
+  <div id="3">\(4\clubsuit\)</div>  
+  <div id="4">\(5\clubsuit\)</div>
+  <div id="5">\(6\clubsuit\)</div>
+  <div id="6">\(7\clubsuit\)</div>
+  <div id="7">\(8\clubsuit\)</div>
+  <div id="8">\(9\clubsuit\)</div>
+  <div id="9">\(10\clubsuit\)</div>
+  <div id="10">\(J\clubsuit\)</div>
+  <div id="11">\(Q\clubsuit\)</div>
+  <div id="12">\(K\clubsuit\)</div>
+  <div id="13">\(A\clubsuit\)</div>
+  <div id="14">\(2\diamondsuit\)</div>
+  <div id="15">\(3\diamondsuit\)</div>
+  <div id="16">\(4\diamondsuit\)</div>
+  <div id="17">\(5\diamondsuit\)</div>  
+  <div id="18">\(6\diamondsuit\)</div>
+  <div id="19">\(7\diamondsuit\)</div>
+  <div id="20">\(8\diamondsuit\)</div>
+  <div id="21">\(9\diamondsuit\)</div>
+  <div id="22">\(10\diamondsuit\)</div>
+  <div id="23">\(J\diamondsuit\)</div>
+  <div id="24">\(Q\diamondsuit\)</div>
+  <div id="25">\(K\diamondsuit\)</div>
+  <div id="26">\(A\diamondsuit\)</div>
+  <div id="27">\(2\heartsuit\)</div>
+  <div id="28">\(3\heartsuit\)</div>
+  <div id="29">\(4\heartsuit\)</div>
+  <div id="30">\(5\heartsuit\)</div>  
+  <div id="31">\(6\heartsuit\)</div>
+  <div id="32">\(7\heartsuit\)</div>
+  <div id="33">\(8\heartsuit\)</div>
+  <div id="34">\(9\heartsuit\)</div>
+  <div id="35">\(10\heartsuit\)</div>
+  <div id="36">\(J\heartsuit\)</div>
+  <div id="37">\(Q\heartsuit\)</div>
+  <div id="38">\(K\heartsuit\)</div>
+  <div id="39">\(A\heartsuit\)</div>
+  <div id="40">\(2\spadesuit\)</div>
+  <div id="41">\(3\spadesuit\)</div>
+  <div id="42">\(4\spadesuit\)</div>
+  <div id="43">\(5\spadesuit\)</div>  
+  <div id="44">\(6\spadesuit\)</div>
+  <div id="45">\(7\spadesuit\)</div>
+  <div id="46">\(8\spadesuit\)</div>
+  <div id="47">\(9\spadesuit\)</div>
+  <div id="48">\(10\spadesuit\)</div>
+  <div id="49">\(J\spadesuit\)</div>
+  <div id="50">\(Q\spadesuit\)</div>
+  <div id="51">\(K\spadesuit\)</div>
+  <div id="52">\(A\spadesuit\)</div>
+  </div>
+</div>
+</div>
+
+</body>
+</html>

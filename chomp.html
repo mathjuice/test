@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="js/chomp.js"></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
+	<title>Hello</title>
+	<link rel="stylesheet" href="style.css">
+	<style>
+		.grid-container {
+		  display: inline-grid;
+		  grid-template-columns: auto auto auto auto auto auto auto;
+		  grid-gap: 0vw;
+		  background-color: var(--primary1);
+		  padding: 0vw;
+		  width: 336px;
+		}
+
+		.sq {
+      color: var(--secondary2);
+		  background-color: var(--primary1);
+		  border: 1px solid black;
+		  text-align: center;
+		  font-size: 3vw;
+		  width: 46px;
+      height: 46px;
+      transition: background-color 1s;
+		}
+
+    .sq:hover {opacity: .85}
+
+    .sq:focus {
+      outline: none;
+    }
+    .sq:active {
+      opacity:.75;
+    }
+
+    .nsq {
+      background-color: var(--primary2);
+      border: 1px solid black;
+      text-align: center;
+      font-size: 3vw;
+      width: 46px;
+      height: 46px;
+    }
+	</style>	
+</head>
+<body>
+	
+<script language="javascript" type="text/javascript" 
+  src="page/header.txt"></script>
+
+<ul class="sidenav">
+  <li><a  href="index.html" title="home">Home</a></li>
+  <li><a href="teaching.html" title="teaching">Teaching</a></li>
+  <li><a href="research.html" title="research">Research</a></li>
+</ul>
+
+<div class="content">
+  <h3 style="text-align:center" id="title">Chomp</h3>
+<div style="text-align: center; overflow: none; margin-bottom: 10px;">
+  <button onclick="newgame()" class="buttonsh">
+  	New Game!
+  </button>
+  <button onclick="typ()" id="type" class="buttonsh" value="2player">
+    2 Player
+  </button>
+  <button onclick="ass()" id="assist" class="buttonsh" value="off">
+    GS Values
+  </button>
+</div>
+
+<div style="text-align:center">
+  <div class="grid-container">
+  <div class="sq" id="1" onclick="ch(1)" value="nc"></div>
+  <div class="sq" id="2" onclick="ch(2)" value="nc"></div>
+  <div class="sq" id="3" onclick="ch(3)" value="nc"></div>
+  <div class="sq" id="4" onclick="ch(4)" value="nc"></div>
+  <div class="sq" id="5" onclick="ch(5)" value="nc"></div>
+  <div class="sq" id="6" onclick="ch(6)" value="nc"></div>
+  <div class="sq" id="7" onclick="ch(7)" value="nc"></div>
+  <div class="sq" id="8" onclick="ch(8)" value="nc"></div>
+  <div class="sq" id="9" onclick="ch(9)" value="nc"></div>
+  <div class="sq" id="10" onclick="ch(10)" value="nc"></div>
+  <div class="sq" id="11" onclick="ch(11)" value="nc"></div>
+  <div class="sq" id="12" onclick="ch(12)" value="nc"></div>
+  <div class="sq" id="13" onclick="ch(13)" value="nc"></div>
+  <div class="sq" id="14" onclick="ch(14)" value="nc"></div>
+  <div class="sq" id="15" onclick="ch(15)" value="nc"></div>
+  <div class="sq" id="16" onclick="ch(16)" value="nc"></div>
+  <div class="sq" id="17" onclick="ch(17)" value="nc"></div>
+  <div class="sq" id="18" onclick="ch(18)" value="nc"></div>
+  <div class="sq" id="19" onclick="ch(19)" value="nc"></div>
+  <div class="sq" id="20" onclick="ch(20)" value="nc"></div>
+  <div class="sq" id="21" onclick="ch(21)" value="nc"></div>
+  <div class="nsq" id="22"></div>
+  <div class="sq" id="23" onclick="ch(23)" value="nc"></div>
+  <div class="sq" id="24" onclick="ch(24)" value="nc"></div> 
+  <div class="sq" id="25" onclick="ch(25)" value="nc"></div>
+  <div class="sq" id="26" onclick="ch(26)" value="nc"></div>
+  <div class="sq" id="27" onclick="ch(27)" value="nc"></div>
+  <div class="sq" id="28" onclick="ch(28)" value="nc"></div>
+  </div>
+</div>
+<div style="text-align:center; transition: opacity .5s ease-in-out" id="update">Click New Game! to start.</div>  
+</div>
+
+</body>
+</html>
