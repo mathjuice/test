@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hello</title>
+  <link rel = "icon" type="image/png" href = "box.png">
+  <link rel = "apple-touch-icon" type="image/png" href = "box.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<script language="javascript" type="text/javascript" 
+  src="header.txt"></script>
+
+<ul class="sidenav">
+  <li><a href="index.html" title="home">Home</a></li>
+  <li><a class="active" href="teaching.html" title="teaching">Teaching</a></li>
+  <li><a href="research.html" title="research">Research</a></li>
+</ul>
+
+<div class="content">
+  <h3>MATH 2500 (Calculus 3)</h3>
+  <div style="text-align:center">Summer 2019</div>
+  <p>
+  <b>Notes:</b>
+  <ul>
+    <li><a href="https://drive.google.com/file/d/1d2hyGQ1CwqpJrdkcehJ3-U_ZEh9sEPMU/view?usp=sharing">Vectors</li>
+    <li><a href="https://drive.google.com/file/d/1hzLdi0T2A_trrrPcOJPCr6zRuv4e7vVg/view?usp=sharing">Vector-Valued Functions</li>
+  </ul>
+  </p>
+</div>
+
+</body>
+</html>
