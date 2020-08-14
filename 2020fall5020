@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Hello</title>
+
+  <link rel = "icon" type="image/png" href = "box.png">
+
+  <link rel = "apple-touch-icon" type="image/png" href = "box.png">
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<script language="javascript" type="text/javascript"
+
+  src="header.txt"></script>
+
+
+
+<ul class="sidenav">
+
+  <li><a href="index.html" title="home">Home</a></li>
+
+  <li><a class="active" href="teaching.html" title="teaching">Teaching</a></li>
+
+  <li><a href="research.html" title="research">Research</a></li>
+
+</ul>
+
+
+
+<div class="content">
+
+  <h3>MATH 5020 (Arithmetic for Middle School Teachers)</h3>
+
+  <div style="text-align:center">Fall 2020</div>
+
+  <p>
+
+  <b>Quick links:</b>
+
+  <ul>
+
+    <li> <a href="" target="_blank">Course Syllabus</a></li>
+
+    <li> <a href="https://uga.view.usg.edu/d2l/login" target="_blank">Homework Submission (eLC)</a></li>
+
+    <li> <a href="" target="_blank">Grading Guidelines</a></li>
+
+    <li> <a href="2020fall5020-notes.html">Class notes</a></li>
+
+  </ul>
+
+  </p>
+
+  <p>
+
+  <b>Course Calendar:</b>
+
+  <ul>
+
+    <li>Week 1</li>
+
+      <ul>
+
+        <li>August 20 (Thursday)</li>
+
+        <ul>
+
+          <li> First day of class </li>
+
+          <li> Introduction; Base 10 number system (§1.1) </li>
+
+          <li> HW 1 (due 8/20): §1.1 #3 (page 12); Read §1.2 </li>
+
+        </ul>
+
+      </ul>
+
+    <li>Week 2</li>
+
+      <ul>
+
+        <li>August 25 (Tuesday)</li>
+
+        <ul>
+
+          <li> </li>
+
+        </ul>
+
+        <li>August 27 (Thursday)</li>
+
+        <ul>
+
+          <li> </li>
+
+        </ul>
+
+      </ul>
+
+    <li>Week 3</li>
+
+      <ul>
+
+        <li>September 1 (Tuesday)</li>
+
+        <ul>
+
+          <li> </li>
+
+        </ul>
+
+        <li>September 3 (Thursday)</li>
+
+        <ul>
+
+          <li> </li>
+
+        </ul>
+
+      </ul>
+
+    <li>Week 4</li>
+
+      <ul>
+
+        <li>September 8 (Tuesday)</li>
+
+        <ul>
+
+          <li> </li>
+
+        </ul>
+
+        <li>September 10 (Thursday)</li>
+
+        <ul>
+
+          <li>  </li>
+
+        </ul>
+
+      </ul>
+
+    <li>Week 5</li>
+
+      <ul>
+
+        <li>September 15 (Tuesday)</li>
+
+        <ul>
+
+          <li> </li>
+
+        </ul>
+
+        <li>September 17 (Thursday)</li>
+
+        <ul>
+
+          <li>  </li>
+
+        </ul>
+
+      </ul>
+
+    <li>Week 6</li>
+
+      <ul>
+
+        <li>September 22 (Tuesday)</li>
+
+        <ul>
+
+          <li> </li>
+
+        </ul>
+
+        <li>September 24 (Thursday)</li>
+
+        <ul>
+
+          <li> </li>
+
+        </ul>
+
+      </ul>
+
+    <li>Week 7</li>
+
+      <ul>
+
+        <li>September 29 (Tuesday)</li>
+
+        <ul>
+
+          <li> </li>
+
+        </ul>
+
+        <li>October 1 (Thursday)</li>
+
+        <ul>
+
+          <li> </li>
+
+        </ul>
+
+      </ul>
+
+    <li>Week 8</li>
+
+      <ul>
+
+        <li>October 6 (Tuesday)</li>
+
+        <ul>
+
+          <li>  </li>
+
+        </ul>
+
+        <li>October 8 (Thursday)</li>
+
+        <ul>
+
+          <li> </li>
+
+        </ul>
+
+      </ul>
+
+    <li>Week 9</li>
+
+      <ul>
+
+        <li>October 13 (Tuesday)</li>
+
+        <ul>
+
+          <li>  </li>
+
+        </ul>
+
+        <li>October 15 (Thursday)</li>
+
+        <ul>
+
+          <li> </li>
+
+        </ul>
+
+      </ul>
+
+    <li>Week 10</li>
+
+      <ul>
+
+        <li>October 15 (Tuesday)</li>
+
+        <ul>
+
+          <li> Base 10; Standard algorithm (§4.2+§4.6) </li>
+
+          <li> HW 17 (due 10/17): §4.2 #1; §4.6 #3,4 (152;191) </li>
+
+        </ul>
+
+        <li>October 17 (Thursday)</li>
+
+        <ul>
+
+          <li> Unequal groups </li>
+
+          <li> HW: Work on Midterm Exam 2 (due 10/22) </li>
+
+        </ul>
+
+      </ul>
+
+    <li>Week 11</li>
+
+      <ul>
+
+        <li>October 22 (Tuesday)</li>
+
+        <ul>
+
+          <li> Making sense of fraction multiplication (§5.1) </li>
+
+          <li> HW 18 (due 10/24): §5.1 #1,2 (page 203); Read §5.1 </li>
+
+        </ul>
+
+        <li>October 24 (Thursday)</li>
+
+        <ul>
+
+          <li> Making sense of fraction multiplication (§5.1) </li>
+
+          <li> HW 19 (due 10/29): §5.1 #3,9,10 (page 203) </li>
+
+        </ul>
+
+      </ul>
+
+    <li>Week 12</li>
+
+      <ul>
+
+        <li>October 29 (Tuesday)</li>
+
+        <ul>
+
+          <li> Fraction multiplication word problems (§5.1) </li>
+
+          <li> HW 20 (due 10/31): §5.1 #11,14 (page 204) </li>
+
+        </ul>
+
+        <li>October 31 (Thursday)</li>
+
+        <ul>
+
+          <li> Fraction multiplication word problems (§5.1) </li>
+
+          <li> HW 21 (due 11/5): §5.1 #4,5,6 (page 203); Read §6.1 </li>
+
+        </ul>
+
+      </ul>
+
+    <li>Week 13</li>
+
+      <ul>
+
+        <li>November 5 (Tuesday)</li>
+
+        <ul>
+
+          <li> Two types of division (§6.1) </li>
+
+          <li> HW 22 (due 11/12): §6.1 #1,2 (page 230); Read §6.2 </li>
+
+        </ul>
+
+        <li>November 7 (Thursday)</li>
+
+        <ul>
+
+          <li> No class! </li>
+
+        </ul>
+
+      </ul>
+
+    <li>Week 14</li>
+
+      <ul>
+
+        <li>November 12 (Tuesday)</li>
+
+        <ul>
+
+          <li> Division and fractions (§6.2) </li>
+          
+          <li> HW 23 (due 11/14): §6.2 #1,2 (page 237) </li>
+
+        </ul>
+
+        <li>November 14 (Thursday)</li>
+
+        <ul>
+
+          <li> Division with remainder (§6.2) </li>
+          
+          <li> HW 24 (due 11/19): §6.2 #6,7,11* (page 237); Read §6.3 </li>
+
+        </ul>
+
+      </ul>
+
+    <li>Week 15</li>
+
+      <ul>
+
+        <li>November 19 (Tuesday)</li>
+
+        <ul>
+
+          <li> Standard division algorithm (§6.3) </li>
+          
+          <li> HW 25 (due 11/21): §6.3 #2,5 (page 250) </li>
+
+        </ul>
+
+        <li>November 21 (Thursday)</li>
+
+        <ul>
+
+          <li> In class quiz covering §5.1 and §6.1, fraction multiplication and division </li>
+
+        </ul>
+
+      </ul>
+
+    <li>Week 16</li>
+
+      <ul>
+
+        <li>November 26 (Tuesday)</li>
+
+        <ul>
+
+          <li> Fractions and decimal numbers </li>
+
+        </ul>
+
+        <li>November 28 (Thursday)</li>
+
+        <ul>
+
+          <li>Thanksgiving (no class)</li>
+
+        </ul>
+
+      </ul>
+
+    <li>Week 17</li>
+
+      <ul>
+
+        <li>December 3 (Tuesday)</li>
+
+        <ul>
+
+          <li> In class study / Q&A </li>
+
+        </ul>
+
+        <li>December 5 (Thursday)</li>
+
+        <ul>
+
+          <li>Reading Day</li>
+
+        </ul>
+
+      </ul>
+
+    <li>Week 18</li>
+
+      <ul>
+
+        <li>December 10 (Tuesday)</li>
+
+        <ul>
+
+          <li>Final Exam 8:00-11:00 am</li>
+
+        </ul>
+
+      </ul>
+
+  </ul>
+
+  </p>
+
+</div>
+
+
+
+</body>
+
+</html>
