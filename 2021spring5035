@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Hello</title>
+
+  <link rel = "icon" type="image/png" href = "box.png">
+
+  <link rel = "apple-touch-icon" type="image/png" href = "box.png">
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<script language="javascript" type="text/javascript"
+
+  src="header.txt"></script>
+
+
+
+<ul class="sidenav">
+
+  <li><a href="index.html" title="home">Home</a></li>
+
+  <li><a class="active" href="teaching.html" title="teaching">Teaching</a></li>
+
+  <li><a href="research.html" title="research">Research</a></li>
+
+</ul>
+
+
+
+<div class="content">
+
+  <h3>MATH 5035 (Algebra for Middle School Teachers)</h3>
+
+  <div style="text-align:center">Spring 2021</div>
+
+  <p>
+
+  <b>Quick links:</b>
+
+  <ul>
+
+    <li> <a href="https://drive.google.com/file/d/1Itmhk7jT9_T1hazNShCFUypqTxsJaXJ0/view?usp=sharing" target="_blank">Course Syllabus</a></li>
+
+    <li> <a href="https://uga.view.usg.edu/d2l/login" target="_blank">Homework Submission (eLC)</a></li>
+
+    <li> <a href="https://drive.google.com/file/d/1zQxajSl6XB4VMEnia2lKn7cdl1RtNzeL/view?usp=sharing" target="_blank">Grading Guidelines</a></li>
+
+    <li> <a href="https://zoom.us/j/97415199293" target="_blank">Virtual Class </a></li>
+    
+    <li> <a href="2021spring5035-notes.html">Class notes</a></li>
+
+  </ul>
+
+  </p>
+
+  <p>
+
+  <b>Course Calendar:</b>
+
+  <ul>
+
+    <li>Week 1</li>
+
+      <ul>
+
+        <li>January 14 (Thursday)</li>
+
+        <ul>
+
+          <li> First day of class </li>
+
+        </ul>
+
+      </ul>
+
+    <li>Week 2</li>
+
+      <ul>
+
+        <li>January 19 (Tuesday)</li>
+
+        <ul>
+
+          <li> </li>
+
+        </ul>
+
+        <li>January 21 (Thursday)</li>
+
+        <ul>
+
+          <li>  </li>
+
+        </ul>
+
+      </ul>
+
+    <li>Week 3</li>
+
+      <ul>
+
+        <li>January 26 (Tuesday)</li>
+
+        <ul>
+
+          <li>  </li> 
+
+        </ul>
+
+        <li>January 28 (Thursday)</li>
+
+        <ul>
+
+          <li>  </li>
+          
+        </ul>
+
+      </ul>
+
+    <li>Week 4</li>
+
+      <ul>
+
+        <li>February 2 (Tuesday)</li>
+
+        <ul>
+
+          <li>  </li>
+
+        </ul>
+
+        <li>February 4 (Thursday)</li>
+
+        <ul>
+
+          <li> </li>
+
+        </ul>
+
+      </ul>
+
+    <li>Week 5</li>
+
+      <ul>
+
+        <li>February 9 (Tuesday)</li>
+
+        <ul>
+
+          <li>  </li> 
+
+        </ul>
+
+        <li>February 11 (Thursday)</li>
+
+        <ul>
+
+          <li>  </li> 
+
+        </ul>
+
+      </ul>
+
+    <li>Week 6</li>
+
+      <ul>
+
+        <li>February 16 (Tuesday)</li>
+
+        <ul>
+
+          <li>  </li> 
+
+        </ul>
+
+        <li>February 18 (Thursday)</li>
+
+        <ul>
+
+          <li>  </li>
+
+        </ul>
+
+      </ul>
+
+    <li>Week 7</li>
+
+      <ul>
+
+        <li>February 23 (Tuesday)</li>
+
+        <ul>
+
+          <li>  </li>
+
+        </ul>
+
+        <li>February 25 (Thursday)</li>
+
+        <ul>
+
+          <li>  </li>
+
+        </ul>
+
+      </ul>
+
+    <li>Week 8</li>
+
+      <ul>
+
+        <li>March 2 (Tuesday)</li>
+
+        <ul>
+
+          <li>  </li>
+
+        </ul>
+
+        <li>March 4 (Thursday)</li>
+
+        <ul>
+
+          <li>  </li>
+
+        </ul>
+
+      </ul>
+
+    <li>Week 9</li>
+
+      <ul>
+
+        <li>March 9 (Tuesday)</li>
+
+        <ul>
+
+          <li> </li>
+
+        </ul>
+
+        <li>March 11 (Thursday)</li>
+
+        <ul>
+
+          <li>  </li>
+
+        </ul>
+
+      </ul>
+
+    <li>Week 10</li>
+
+      <ul>
+
+        <li>March 16 (Tuesday)</li>
+
+        <ul>
+
+          <li>  </li>
+
+        </ul>
+
+        <li>March 18 (Thursday)</li>
+
+        <ul>
+
+          <li>  </li>
+
+        </ul>
+
+      </ul>
+
+    <li>Week 11</li>
+
+      <ul>
+
+        <li>March 23</li>
+
+        <ul>
+          
+          <li>  </li>
+
+          <li>  </li>
+
+        </ul>
+
+        <li>March 25 (Thursday)</li>
+
+        <ul>
+          
+          <li>  </li>
+
+          <li>   </li>
+
+        </ul>
+
+      </ul>
+
+    <li>Week 12</li>
+
+      <ul>
+
+        <li>March 30 (Tuesday)</li>
+
+        <ul>
+          
+          <li>  </li>
+
+          <li>  </li>
+
+        </ul>
+
+        <li>April 1 (Thursday)</li>
+
+        <ul>
+          
+          <li>  </li>
+
+          <li> </li>
+
+        </ul>
+
+      </ul>
+
+    <li>Week 13</li>
+
+      <ul>
+
+        <li>April 6 (Tuesday)</li>
+
+        <ul>
+
+          <li>  </li>
+
+        </ul>
+
+        <li>April 8 (Thursday)</li>
+
+        <ul>
+
+          <li> Instructional break (no class) </li>
+
+        </ul>
+
+      </ul>
+
+    <li>Week 14</li>
+
+      <ul>
+
+        <li>April 13 (Tuesday)</li>
+
+        <ul>
+
+          <li> </li>
+
+        </ul>
+
+        <li>April 15 (Thursday)</li>
+
+        <ul>
+
+          <li>  </li>
+
+        </ul>
+
+      </ul>
+
+    <li>Week 15</li>
+
+      <ul>
+
+        <li>April 20 (Tuesday)</li>
+
+        <ul>
+
+          <li> </li>
+
+        </ul>
+
+        <li>April 22 (Thursday)</li>
+
+        <ul>
+          
+          <li>  </li>
+
+        </ul>
+
+      </ul>
+
+    <li>Week 16</li>
+
+      <ul>
+
+        <li>April 27 (Tuesday)</li>
+
+        <ul>
+
+          <li> </li>
+
+        </ul>
+
+        <li>April 29 (Thursday)</li>
+
+        <ul>
+          
+          <li> Last day of class </li>
+
+          <li> Give out Final Exam (due 5/14) </li>
+
+        </ul>
+
+      </ul>
+
+  </ul>
+
+  </p>
+
+</div>
+
+
+
+</body>
+
+</html>
