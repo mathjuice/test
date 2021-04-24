@@ -1,1 +1,1 @@
-document.write("<div class='header'><h1>Matthew R. Just</h1><h2>email: <a href='mailto:justmatt@uga.edu' title='email'>justmatt@uga.edu</a></h2><h2>office: <a href='office.html' title='office'>Boyd 427D</a></h2></div>" )
+document.write("<div class='header'><h1>Matthew R. Just</h1><h2>email: <a href='mailto:justmatt@uga.edu' title='email'>justmatt@uga.edu</a></h2><h2>office: <a href='office.html' title='office'>Boyd 427D</a></h2><h2><a href="https://drive.google.com/file/d/1gA-JAPbIVNu8ad5EI-qqp-GA_ATINhG6/view?usp=sharing" target="_blank">Curriculum Vitae</a></h2></div>" )
